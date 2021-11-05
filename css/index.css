@@ -1,0 +1,95 @@
+/* Publicações pagina inicial */
+
+p{
+    color:var(--azul);
+    --fundo: #121212;
+    --fundo-2: #131313;
+    --fundo-3: #262E36;
+}
+
+.cards{
+    margin-top:50px;
+    padding-bottom: 30px;
+}
+
+.card{
+    overflow: hidden;   
+    position: relative;
+    background:  var(--fundo-3);
+    margin: 10px 0;
+}
+
+.card .btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.card img{
+    max-width: 100%;
+    height: 200px;
+    transition: all 200ms;
+}
+
+.card img:hover{
+    animation: jello;
+    animation-duration: 1s;
+}
+
+.card-header{
+    background: var(--azul);
+    color:  var(--fundo-2);;
+    font-weight: 600;
+    z-index: 9999;
+}
+
+.card-header i{
+    font-size: 18px;
+}
+
+.card-body{
+    color:  var(--azul);
+}
+
+.card-body a{
+    background: transparent;
+    border-color:  var(--azul);
+    color:  var(--azul);
+
+}
+
+.card-body a:hover{
+    background:  var(--azul);
+    border-color:  var(--azul);
+    color:  var(--fundo-2);
+    font-weight: 600;
+}
+
+/* Paginação */
+
+.div-paginacao{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-link{
+    background-color: var(--fundo-3);
+    border-color:  var(--azul);
+    color: var(--azul);
+}
+
+.page-link:hover{
+    background-color: var(--fundo);
+    border-color:  var(--azul);
+    color: var(--azul);
+}
+
+.pagina-atual{
+    background-color:  var(--azul);
+    color: #000;
+}
+
+.texto{
+    color: var(--nuvem);
+}

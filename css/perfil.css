@@ -1,0 +1,89 @@
+/*Perfil*/
+
+.perfil{
+    background: #2C353F;
+    margin: 50px auto;
+    padding: 10px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.perfil h1,
+.perfil h2{
+    text-align: center;
+    color: #2ecc71;
+}
+
+.perfil img{
+    margin: 0 auto;
+    width: 130px;
+}
+
+.infos-perfil{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes-usuario{
+    margin: 0 auto;
+}
+
+.azul-gt{
+    color: var(--azul)!important;
+}
+
+.azul-gt:focus{
+    background: transparent;
+    border-color: var(--azul);
+    color: var(--azul);
+}
+
+.btn.azul-gt:hover{
+    background: transparent;
+    color: var(--azul);
+    border-color: var(--azul);
+}
+
+.infos-perfil .btn{
+    width: 100%;
+}
+
+.info-usuario{
+    color: var(--nuvem);
+}
+
+.form-check-input:hover{
+    cursor: pointer;
+}
+
+.btn-edit{
+    background-color: transparent;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-sair{
+    margin: 30px auto 10px auto;
+    width: 100px!important;
+}
+
+.btn-sair:hover{
+    background-color: var(--azul)!important;
+    color: #2C353F!important;
+}
+
+.btn-sair-sim{
+    background-color: #d55;
+    color: #2C353F;
+}
+
+.btn-sair-nao{
+    background-color: #d55;
+    color: #FFF;
+}
+
+/*Nome do usuario*/
+.h2-nome{
+    color: var(--azul);
+}

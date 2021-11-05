@@ -1,0 +1,380 @@
+/*Painel adm*/
+
+.btn:hover{
+    color: #000;
+    background-color:  var(--azul);
+}
+
+.painel-adm{
+    padding: 30px 20px;
+}
+
+.h1-painel{
+    border-bottom: 1px solid  var(--azul);
+    padding: 10px 0;
+}
+
+
+.cadastrado{
+    margin-top: 30px;
+}
+
+.items-caixa{
+    display: flex;
+    align-items:center;
+}
+
+.caixa{
+    background-color: transparent;
+    border: 1px solid  var(--azul);
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.caixa i{
+    color:  var(--azul);
+    font-size: 30px;
+}
+
+.total,
+.caixa{
+    margin: 10px 5px;
+}
+
+.total p{
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+@media(max-width: 768px){
+    .total p{
+        font-size: 18px;
+    }
+}
+
+
+/* Nav Admin */
+
+.menu-admin{
+    border-bottom: 1px solid  var(--azul);
+    padding: 3px;
+    background-color:  var(--fundo);
+}
+
+.menu-admin>div{
+    display: inline;
+}
+
+.menu-admin>div:hover{
+    border-bottom:  var(--azul) 3px solid;
+}
+
+.menu-admin a{
+    color:  var(--azul);
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Sugestoes Admin */
+
+#list-sugestao>div{
+    border: 1px  var(--azul) solid;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    min-width: 300px;
+    color:  var(--azul);
+    background-color: var(--fundo);
+}
+
+#list-sugestao>div>h4{
+    font-size: 20px;
+    margin: 3px 10px;
+}
+
+#mensagem{
+    margin: 7px 10px;
+}
+
+#usuario{
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+/* Publicações Admin */
+
+.botao-cadastrar{
+    background-color: transparent;
+    color: var(--azul);
+    border: 1px solid  var(--azul);
+    box-shadow: none;
+    margin: 0 10px;
+}
+
+.botao-cadastrar:hover{
+    background-color: var(--azul);
+    color: var(--fundo-3);
+}
+
+.modal-header{
+    background-color:  var(--fundo);
+    color:  var(--azul);
+}
+
+.modal-title{
+    font-weight: 700;
+}
+
+.modal-body{
+    background-color:  var(--fundo);
+}
+
+.modal textarea{
+    background: transparent;
+    border-color:  var(--azul);
+    resize: none;
+    width: 100%;
+    color:  var(--azul);
+}
+
+.modal textarea:focus{
+    background: transparent;
+    border-color:  var(--azul);
+    resize: none;
+    width: 100%;
+    color:  var(--azul);
+}
+
+.modal select{
+    background-color:  var(--fundo);
+    color:  var(--azul);
+    border-color: var(--azul);
+}
+
+.modal p{
+    color:  var(--azul);;
+}
+
+.modal #botao-genero{
+    border: 1px solid  var(--azul);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 3px;
+}
+.modal #botao-genero:hover{
+    cursor: pointer;
+}
+
+.modal #item-genero{
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Gêneros Admin */
+
+table{
+    margin: 30px;
+    border: 1px solid  var(--azul);
+}
+
+td,th{
+    padding: 5px 10px;
+    border: 1px solid  var(--azul)!important;
+    background-color:  var(--fundo);
+    color:  var(--azul);
+    background-color: var(--fundo-3);
+}
+
+table input{
+    display: none;
+}
+
+table form{
+    display: inline-block;
+    margin: 0 3px;
+}
+
+table th{
+    text-align: center;
+}
+
+table button{
+    background-color: transparent!important;
+    color:  var(--azul)!important;
+    border: 1px solid  var(--azul)!important;
+    margin: 0 2px;
+}
+table button:hover{
+    background-color: var(--azul)!important;
+    color: var(--fundo-2)!important;
+}
+
+/* Jogos Admin */
+
+.card-jogo{
+    background-color: var(--fundo-3);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 10px auto;
+    color: var(--azul);
+    padding: 10px;
+  }
+  
+.titulo-jogo{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+  
+.header-jogo{
+    display: flex;
+    justify-content: space-between;
+}
+  
+.acoes-jogo{
+    display: flex;
+}
+  
+.acoes-jogo>button{
+    background-color: transparent;
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    border-radius: 5px;
+    margin: 0 2px;
+}
+  
+.acoes-jogo>button:hover{
+    background-color: var(--azul);
+    color: var(--fundo-3);
+}
+  
+.genero-jogo{
+    display: inline-block;
+    background-color: var(--azul);
+    color: var(--fundo-3);
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0 3px;
+    margin: 5px 5px 10px 5px;
+}
+  
+.img-jogo{
+    margin: auto auto;
+    width: 33%;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 10px;
+    border: 1px solid var(--azul);
+}
+
+#div-generos{
+    width: 100%;
+    text-align: start;
+}
+
+#div-generos button{
+      border: 1px solid #777;
+}
+
+#inputs-generos div{
+    display: inline-block;
+    border: 1px solid  var(--fundo-2);
+    border-radius: 5px;
+    margin: 3px;
+}
+
+#inputs-generos div.n-selecionado{
+    color: #000;
+}
+
+#inputs-generos div.n-selecionado:hover{
+    color: #000;
+    background-color: #d2d2d2;
+}
+
+#inputs-generos div.selecionado{
+    color: #FFF;
+    background-color: #555;
+}
+
+#inputs-generos label{
+    cursor: pointer;
+    padding: 0 3px;
+}
+
+#inputs-generos input{
+    display: none;
+}
+
+/* Usuario */
+
+.div-card{
+    margin: 10px;
+    padding: 3px;
+    border: 1px solid var(--azul);
+    border-radius: 10px;
+    background-color: var(--fundo-3);
+    max-width: 500px;
+}
+
+.div-card div.infos{
+    list-style-type: none;
+    margin: 0;
+}
+
+.div-card div.infos p{
+    color: var(--nuvem);
+    margin: 0 5px;
+}
+
+.div-card div.infos p.nome{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--azul);
+}
+
+.div-card img{
+    border-radius: 5px;
+    margin: auto 10px;;
+}
+
+span.id{
+    color: white;
+    position: relative;
+    left: 90px;
+}
+
+.div-card .btn-att{
+    border: 1px solid var(--azul);
+    background-color: transparent;
+    color: var(--azul);
+    border-radius: 5px;
+}
+
+.div-card .btn-att:hover{
+    background-color: var(--azul);
+    color: var(--fundo-3);
+}
+
+.div-card .btn-del{
+    border: 1px solid #d55;
+    background-color: transparent;
+    color: #d55;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.div-card .btn-del:hover{
+    background-color: #d55;
+    color: var(--fundo-3);
+}
+
+#usuarios{
+    padding: 20px;
+}

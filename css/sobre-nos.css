@@ -1,0 +1,25 @@
+/*Sobre nós*/
+
+.sobre{
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.sobre h1,
+.sobre p{
+    color:  var(--azul);
+}
+
+.sobre h1{
+    text-align: center;
+}
+
+.sobre p{
+    margin: 10px;
+}
+
+.sobre img{
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
